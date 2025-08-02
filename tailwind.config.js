@@ -4,7 +4,12 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: { fontFamily: {
+    manrope: ['Manrope_400Regular'],
+    manropeLight: ['Manrope_300Light'],
+    manropeMedium: ['Manrope_500Medium'],
+    manropeSemiBold: ['Manrope_600SemiBold'],
+  },},
   },
   plugins: [],
 }
